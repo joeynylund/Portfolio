@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -14,14 +12,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #121212;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(100px + 2vmin);
   color: white;
+  text-align: left;
+}
+
+.App-header h1 {
+  font-family: 'Playfair Display';
+  font-size: 4.5rem;
+}
+
+.App-header h5 {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
 }
 
 .App-link {
@@ -35,4 +44,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  padding: 10rem 0rem;
+  color:#fff;
+  background-color: #212121;
+}
+
+section h1 {
+  font-family: 'Playfair Display';
+}
+
+#projects .cards {
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 10px;
 }
