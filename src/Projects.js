@@ -77,12 +77,12 @@ function Projects() {
             <div className="cards">
               <h2>Kickfees Mobile App</h2>
               <h6>Nativescript</h6>
-              <p>Lorem ipsum taste sfds asdfsdf lksjdlfkj sdflkjdf asdf;lakjsdf asdflkjsadf.</p>
+              <p>Mobile app that serves as a dashboard for company reps!</p>
               <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
                 setModal(true)
                 setTitle('Kickfees Mobile App')
                 setTool('Nativescript')
-                setDescription('Mobile app built with Nativescript')
+                setDescription('Kickfees focuses on helping businesses eliminate their credit card fees. For their referral program they wanted an app that could serve as a mobile dashboard for their reps. With this app, they can track their commission and add new leads on the go.')
                 setImage('../kickfees_mobile.jpg')
               }} />
             </div>
@@ -93,7 +93,7 @@ function Projects() {
             <div className="cards">
               <h2>Valerie Real Estate</h2>
               <h6>WordPress</h6>
-              <p>Shopify store to sell Micecraft merchandise!</p>
+              <p>Website with listings for local real estate agent!</p>
               <a href="http://valerierealestate5.com/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
             </div>
           </Col>
@@ -101,7 +101,7 @@ function Projects() {
             <div className="cards">
               <h2>Ring of Elysium Competitive League</h2>
               <h6>WordPress</h6>
-              <p>Lorem ipsum taste sfds asdfsdf lksjdlfkj sdflkjdf asdf;lakjsdf asdflkjsadf.</p>
+              <p>Home of a competitive esports league!</p>
               <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" />
             </div>
           </Col>
@@ -111,7 +111,7 @@ function Projects() {
             <div className="cards">
               <h2>Kickfees Website</h2>
               <h6>HTML</h6>
-              <p>Shopify store to sell Micecraft merchandise!</p>
+              <p>Informational website for a local credit card company!</p>
               <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" />
             </div>
           </Col>
@@ -119,7 +119,7 @@ function Projects() {
             <div className="cards">
               <h2>Proudly Mobile App</h2>
               <h6>Nativescript</h6>
-              <p>Lorem ipsum taste sfds asdfsdf lksjdlfkj sdflkjdf asdf;lakjsdf asdflkjsadf.</p>
+              <p>Mobile app for a local credit card company!</p>
               <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" />
             </div>
           </Col>
@@ -128,8 +128,8 @@ function Projects() {
           <Col md="6">
             <div className="cards">
               <h2>Proudly Website</h2>
-              <h6>WordPress</h6>
-              <p>Shopify store to sell Micecraft merchandise!</p>
+              <h6>HTML</h6>
+              <p>Website for a local charitable credit card company!</p>
               <a href="https://www.payproudly.com/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
             </div>
           </Col>
@@ -137,7 +137,7 @@ function Projects() {
             <div className="cards">
               <h2>PortBuddy</h2>
               <h6>Shopify</h6>
-              <p>Lorem ipsum taste sfds asdfsdf lksjdlfkj sdflkjdf asdf;lakjsdf asdflkjsadf.</p>
+              <p>Shopify website for a local t-shirt company!</p>
               <a href="https://www.portbuddy.com/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
             </div>
           </Col>
@@ -147,8 +147,8 @@ function Projects() {
         <Modal isOpen={modal} toggle={toggle} size="lg">
           <ModalHeader toggle={toggle}>{title}</ModalHeader>
           <ModalBody>
-            <span style={{color:'#46D39E'}}>{tool}</span>
-            <p>{description}</p>
+            <span style={{color:'#46D39E',fontFamily:'Source Sans Pro'}}>{tool}</span>
+            <p style={{fontFamily:'Source Sans Pro'}}>{description}</p>
             <img src={image} style={{width:'100%',height:'auto'}} />
           </ModalBody>
           <ModalFooter>
