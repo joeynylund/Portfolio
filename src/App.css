@@ -61,6 +61,12 @@ section h1 {
   padding: 20px;
   border-radius: 10px;
   font-family: 'Source Sans Pro';
+  transition: all 0.5s;
+}
+
+.cards:hover {
+  box-shadow: -1px 1px #46D39E, -2px 2px #46D39E, -3px 3px #46D39E;
+  transform: translate(3px, -3px);
 }
 
 .cards h2 {
@@ -69,4 +75,53 @@ section h1 {
 
 .cards h6 {
   font-weight: 300;
+  color: #46D39E;
+}
+
+.cards p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cards .social-icon:hover {
+  cursor: pointer;
+  color: #46D39E;
+}
+
+.App-header .social-icon {
+  color: #46D39E;
+  cursor: pointer;
+}
+
+a {
+  color: #fff!important;
+}
+
+.modal-content {
+  background-color: #212121!important;
+  color: #fff;
+  border: none!important;
+  font-family: 'Source Sans Pro';
+}
+
+.modal-header {
+  border: none!important;
+  padding-bottom: 0!important;
+  font-weight: 600;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.modal-body {
+  padding-top: 0!important;
+}
+
+.modal-footer {
+  border: none!important;
+}
+
+.close {
+  color: #fff!important;
+  opacity: 0.75!important;
 }
