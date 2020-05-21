@@ -52,7 +52,6 @@ function Projects() {
               <h6>React</h6>
               <p>Web app filled with Tarkov information!</p>
               <a href="https://github.com/joeynylund/tarkov-app" target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' className="social-icon" /></a>
-              <a href="" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" style={{marginLeft:'15px'}} /></a>
             </div>
           </Col>
           <Col md="6">
