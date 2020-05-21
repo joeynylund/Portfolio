@@ -13,9 +13,9 @@ function Header() {
         <h1>Hello, I'm Joseph Nylund</h1>
         <h5>Front-End Developer, Esports enthusiast, Guitar player, & Husband.</h5>
         <h6>
-          <FontAwesomeIcon icon={faGithub} size='2x' style={{marginRight:'15px'}} className="social-icon" />
-          <FontAwesomeIcon icon={faLinkedin} size='2x' style={{marginRight:'15px'}} className="social-icon" />
-          <FontAwesomeIcon icon={faEnvelope} size='2x' style={{marginRight:'15px'}} className="social-icon" />
+          <a href="https://github.com/joeynylund" target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' style={{marginRight:'15px'}} className="social-icon" /></a>
+          <a href="https://www.linkedin.com/in/josephnylund/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='2x' style={{marginRight:'15px'}} className="social-icon" /></a>
+          <a href="mailto:joseph@nylund.dev" target="_blank"><FontAwesomeIcon icon={faEnvelope} size='2x' style={{marginRight:'15px'}} className="social-icon" /></a>
         </h6>
         </Container>
       </header>
