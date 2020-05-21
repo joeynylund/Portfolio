@@ -134,3 +134,7 @@ a {
 .slick-next {
   display:none!important;
 }
+
+.resume-button:hover {
+  background-color: #303030!important;
+}
