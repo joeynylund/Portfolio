@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './Header';
 import Projects from './Projects';
+import Git from './Git';
 import Skills from './Skills';
 import Resume from './Resume';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -12,6 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Skills />
+    <Git />
     <Projects />
     <Resume />
   </React.StrictMode>,

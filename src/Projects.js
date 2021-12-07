@@ -31,45 +31,99 @@ function Projects() {
             <div className="cards">
               <h2>Shuffle.gg</h2>
               <h6>React</h6>
-              <p>Shuffle is the new way to find your favorite streamer!</p>
+              <p>Shuffle is the new way to find your favorite Twitch streamer! One of my first ever projects built with React.</p>
               <a href="https://github.com/joeynylund/Shuffle.gg" target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' className="social-icon" /></a>
               <a href="https://shuffle-gg.web.app/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" style={{marginLeft:'15px'}} /></a>
             </div>
           </Col>
           <Col md="6">
             <div className="cards">
-              <h2>Nylund.dev</h2>
-              <h6>React</h6>
-              <p>My personal website! </p>
-              <a href="https://github.com/joeynylund/Portfolio" target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' className="social-icon" /></a>
+              <h2>Spinnaker Resorts Corporate Website</h2>
+              <h6>WordPress</h6>
+              <p>Part of the Corporate Marketing team that is responsible for the upkeep and maintenance of the Spinnaker Resorts corporate website.</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle('Spinnaker Website')
+                setTool('WordPress')
+                setDescription('Part of the Corporate Marketing team that is responsible for the upkeep and maintenance of the Spinnaker Resorts corporate website.')
+                setImage('../projects/spinnaker.png')
+              }} />
             </div>
           </Col>
         </Row>
         <Row>
           <Col md="6">
             <div className="cards">
-              <h2>Tarkov Companion</h2>
-              <h6>React</h6>
-              <p>Web app filled with Tarkov information!</p>
-              <a href="https://github.com/joeynylund/tarkov-app" target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' className="social-icon" /></a>
+              <h2>Spinnaker Activations</h2>
+              <h6>HTML/CSS/JavaScript</h6>
+              <p>Landing page built with online booking as a part of the sales/marketing department of Spinnaker Resorts.</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle('Spinnaker Activations')
+                setTool('HTML/CSS/JavaScript')
+                setDescription('Landing page built with online booking as a part of the sales/marketing department of Spinnaker Resorts.')
+                setImage('../projects/activations.png')
+              }} />
             </div>
           </Col>
           <Col md="6">
             <div className="cards">
-              <h2>TeamBenevolent.TV</h2>
-              <h6>jQuery</h6>
-              <p>Website for a Twitch broadcasting team!</p>
-              <a href="http://teambenevolent.tv/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
+              <h2>Spinnaker Lead Generation</h2>
+              <h6>HTML/CSS/JavaScript</h6>
+              <p>Landing page built to capture leads fed from a Google Ads campaign. Contains multi level funnel that feeds call room.</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle('Spinnaker Lead Generation')
+                setTool('HTML/CSS/JavaScript')
+                setDescription('Landing page built to capture leads fed from a Google Ads campaign. Contains multi level funnel that feeds call room.')
+                setImage('../projects/hh_etw.png')
+              }} />
             </div>
           </Col>
         </Row>
         <Row>
           <Col md="6">
             <div className="cards">
-              <h2>MCProHosting</h2>
-              <h6>Shopify</h6>
-              <p>Shopify store to sell Micecraft merchandise!</p>
-              <a href="https://store.mcprohosting.com/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
+              <h2>Children's Museum of Denver</h2>
+              <h6>Sitefinity</h6>
+              <p>Part of the team at Truematter to deliver this amazing website for the Children's Museum of Denver.</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle("Children's Museum of Denver")
+                setTool('Sitefinity')
+                setDescription("Part of the team at Truematter to deliver this amazing website for the Children's Museum of Denver.")
+                setImage('../projects/cmod.png')
+              }} />
+            </div>
+          </Col>
+          <Col md="6">
+            <div className="cards">
+              <h2>South Carolina State Credit Union</h2>
+              <h6>Sitefinity</h6>
+              <p>Part of the team at Truematter to deliver this incredible website for the South Carolina State Credit Union.</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle('South Carolina State Credit Union')
+                setTool('Sitefinity')
+                setDescription('Part of the team at Truematter to deliver this incredible website for the South Carolina State Credit Union.')
+                setImage('../projects/scscu.png')
+              }} />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col md="6">
+            <div className="cards">
+              <h2>Avtec</h2>
+              <h6>Sitefinity</h6>
+              <p>Part of the team at Truematter to deliver this awesome website for Avtec.</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle("Avtec")
+                setTool('Sitefinity')
+                setDescription("Part of the team at Truematter to deliver this awesome website for Avtec.")
+                setImage('../projects/avtec.png')
+              }} />
             </div>
           </Col>
           <Col md="6">
@@ -87,30 +141,7 @@ function Projects() {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col md="6">
-            <div className="cards">
-              <h2>Valerie Real Estate</h2>
-              <h6>WordPress</h6>
-              <p>Website with listings for local real estate agent!</p>
-              <a href="http://valerierealestate5.com/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
-            </div>
-          </Col>
-          <Col md="6">
-            <div className="cards">
-              <h2>Ring of Elysium Competitive League</h2>
-              <h6>WordPress</h6>
-              <p>Home of a competitive esports league!</p>
-              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
-                setModal(true)
-                setTitle('ROECL Website')
-                setTool('WordPress')
-                setDescription('ROECL is a competitive league for the video game Ring of Elysium. I help run the leagues and also helped build their online presence. This site features a leader board for displaying the standings throughout the duration of the league as well as a twitch stream embedded for viewers to watch on the website itself.')
-                setImage('../projects/roecl_web.jpg')
-              }} />
-            </div>
-          </Col>
-        </Row>
+
         <Row>
           <Col md="6">
             <div className="cards">
@@ -158,10 +189,16 @@ function Projects() {
           </Col>
           <Col md="6">
             <div className="cards">
-              <h2>PortBuddy</h2>
-              <h6>Shopify</h6>
-              <p>Shopify website for a local t-shirt company!</p>
-              <a href="https://www.portbuddy.com/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="social-icon" /></a>
+              <h2>Ring of Elysium Competitive League</h2>
+              <h6>WordPress</h6>
+              <p>Home of a competitive esports league!</p>
+              <FontAwesomeIcon icon={faImage} size='2x' className="social-icon" onClick={(e) => {
+                setModal(true)
+                setTitle('ROECL Website')
+                setTool('WordPress')
+                setDescription('ROECL is a competitive league for the video game Ring of Elysium. I help run the leagues and also helped build their online presence. This site features a leader board for displaying the standings throughout the duration of the league as well as a twitch stream embedded for viewers to watch on the website itself.')
+                setImage('../projects/roecl_web.jpg')
+              }} />
             </div>
           </Col>
         </Row>
